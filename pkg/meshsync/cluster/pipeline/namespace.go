@@ -8,6 +8,7 @@ import (
 	"github.com/myntra/pipeline"
 )
 
+// TODO have to find a solution for this
 var NamespaceName []string
 
 // Namespace will implement step interface for Namespaces
