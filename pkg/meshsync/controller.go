@@ -1,4 +1,4 @@
-package meshsync
+package main
 
 import (
 	appsv1 "k8s.io/api/apps/v1"
@@ -56,23 +56,4 @@ func resource(name string, namespace string, replicas int32) *appsv1.Deployment 
 		},
 	}
 	return deployment
-}
-
-// StartInformer - run informer
-func StartInformer(config *rest.Config) error {
-
-	// Configure discovery
-	client, err := inf.NewClient(config)
-	if err != nil {
-		log.Printf("Couldnot create informer client: %s", err)
-		return err
-	}
-
-	log.Println("start cluster informers")
-	cluster.StartInformer(client)
-
-	log.Println("start istio informers")
-	istio.StartInformer(client)
-
-	return nil
 }
