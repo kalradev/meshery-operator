@@ -22,7 +22,7 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 	golang.org/x/tools v0.0.0-20200804011535-6c149bb5ef0d // indirect
 	google.golang.org/genproto v0.0.0-20200804131852-c06518451d9c // indirect
-	google.golang.org/grpc v1.34.0
+	google.golang.org/grpc v1.35.0
 	google.golang.org/protobuf v1.25.0
 	istio.io/client-go v1.8.0
 	k8s.io/api v0.18.12
