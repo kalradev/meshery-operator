@@ -21,12 +21,11 @@ require (
 	github.com/onsi/gomega v1.10.4
 	github.com/sirupsen/logrus v1.6.0
 	golang.org/x/tools v0.0.0-20200804011535-6c149bb5ef0d // indirect
-	google.golang.org/genproto v0.0.0-20200804131852-c06518451d9c // indirect
 	google.golang.org/grpc v1.34.0
 	google.golang.org/protobuf v1.25.0
 	istio.io/client-go v1.8.0
-	k8s.io/api v0.18.12
-	k8s.io/apimachinery v0.18.12
-	k8s.io/client-go v0.18.12
-	sigs.k8s.io/controller-runtime v0.6.4
+	k8s.io/api v0.20.2
+	k8s.io/apimachinery v0.20.2
+	k8s.io/client-go v0.20.2
+	sigs.k8s.io/controller-runtime v0.8.2
 )
