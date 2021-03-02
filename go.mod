@@ -24,9 +24,9 @@ require (
 	google.golang.org/genproto v0.0.0-20200804131852-c06518451d9c // indirect
 	google.golang.org/grpc v1.34.0
 	google.golang.org/protobuf v1.25.0
-	istio.io/client-go v1.8.0
-	k8s.io/api v0.18.12
-	k8s.io/apimachinery v0.18.12
-	k8s.io/client-go v0.18.12
+	istio.io/client-go v1.9.1
+	k8s.io/api v0.20.1
+	k8s.io/apimachinery v0.20.1
+	k8s.io/client-go v0.20.1
 	sigs.k8s.io/controller-runtime v0.6.4
 )
